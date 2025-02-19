@@ -87,6 +87,7 @@ def update_route53_record(zone_id, record_name, record_type, record_value, ttl=3
     print(f"Record {record_name} ({record_type}) updated in zone {zone_id}")
     print(f"Change ID: {change_id}, Status: {status}")
 
+
 def delete_route53_record(zone_id, record_name):
     client = boto3.client('route53')
 
@@ -117,4 +118,5 @@ def delete_route53_record(zone_id, record_name):
             )
             print(f"Record {record_name} ({record_type}) deleted from zone {zone_id}")
             return
+
     print(f"Error: Record {record_name} not found in zone {zone_id}")
