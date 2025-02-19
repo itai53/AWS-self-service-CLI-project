@@ -1,1 +1,5 @@
 venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo # Add to .gitignore
