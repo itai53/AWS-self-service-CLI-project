@@ -1,5 +1,0 @@
-Metadata-Version: 2.2
-Name: awscli
-Version: 1.0
-Requires-Dist: boto3
-Dynamic: requires-dist

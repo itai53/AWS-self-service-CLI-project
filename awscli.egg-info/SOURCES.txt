@@ -1,9 +1,0 @@
-README.md
-deploy.py
-setup.py
-awscli.egg-info/PKG-INFO
-awscli.egg-info/SOURCES.txt
-awscli.egg-info/dependency_links.txt
-awscli.egg-info/entry_points.txt
-awscli.egg-info/requires.txt
-awscli.egg-info/top_level.txt
