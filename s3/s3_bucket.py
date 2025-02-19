@@ -116,7 +116,6 @@ def delete_s3(bucket_name):
     if confirmation.lower() != 'y':
         print("Bucket deletion aborted.")
         return
-
     # Empty the bucket by deleting all objects inside.
     try:
         paginator = s3_client.get_paginator('list_objects_v2')
