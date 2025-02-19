@@ -18,7 +18,8 @@ Ensure you have Python installed on your system.
 
 ### AWS CLI
 
-Ensure AWS CLI Is Installed check link below on how to install 
+Ensure AWS CLI Is Installed 
+check the link on -  
 [How to iinstall AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 Configure your AWS credentials by running:
