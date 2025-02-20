@@ -4,11 +4,13 @@
 
 This project is a Python-based CLI tool for developers to create, update, and manage AWS resources.
 
-This CLI tool streamlines AWS resource management by allowing developers to create, update, and manage AWS resources while ensuring compliance with DevOps standards.
+This CLI tool streamlines AWS resource management by allowing developers to:
 
 - Provision EC2 instances with specific instance types and AMIs.
 - Manage S3 buckets with control over access policies and file uploads.
 - Create and manage DNS zones and records via Route53.
+  
+and manage AWS resources while ensuring compliance with DevOps standards.
 
 ## Prerequisites ⚙️
 
