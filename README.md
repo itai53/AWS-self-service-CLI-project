@@ -161,6 +161,9 @@ Some commands support both full and short versions of flags. For example:
 ## Summary 📚
 
 By following the installation and configuration steps above, you can quickly set up and use the tool to self-provision AWS resources.
+- PRs are welcome! Fork, commit, and create a Pull Request.
+- 🔥 If this project helps you, give it a ⭐ on GitHub!
+
 
 
 **Happy provisioning! 🎉**
