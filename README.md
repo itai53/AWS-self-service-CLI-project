@@ -2,7 +2,7 @@
 
 ## Overview 📄
 
-This project is a Python-based CLI tool for developers to create, update, and manage AWS resources while ensuring compliance with DevOps standards.
+This project is a Python-based CLI tool for developers to create, update, and manage AWS resources.
 
 This CLI tool streamlines AWS resource management by allowing developers to:
 
@@ -160,6 +160,7 @@ Some commands support both full and short versions of flags. For example:
 
 ## Summary 📚
 
-By following the installation and configuration steps above, you can quickly set up and use the tool to self-provision AWS resources while adhering to your organization’s DevOps standards.
+By following the installation and configuration steps above, you can quickly set up and use the tool to self-provision AWS resources.
+
 
 **Happy provisioning! 🎉**
