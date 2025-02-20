@@ -42,8 +42,8 @@ Installed automatically via `pip install` (see below).
 First, clone the repository and navigate to the project directory:
 
 ```sh
-git clone <repository-url>
-cd <project-directory>
+git clone [<repository-url>](https://github.com/itai53/AWS-self-service-CLI-project.git)
+cd AWS-self-service-CLI-project
 ```
 
 ### Install Packages
