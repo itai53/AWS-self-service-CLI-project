@@ -127,15 +127,16 @@ Some commands support both full and short versions of flags. For example:
 
 ## Available Commands ✨
 
-### ☁️ EC2 Commands 
+### ☁️ EC2 Commands  
 
-| Command      | Action                                                                      | Example                                                                                       |
-| ------------ | --------------------------------------------------------------------------- |-----------------------------------------------------------------------------------------------|
+| Command      | Action                                                                      | Example                                                                                      |
+|-------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | `ec2 create` | Create a new EC2 instance using `t3.nano` or `t4g.nano` and a selected AMI. | `awscli ec2 create --N my-ec2 --type t3.nano --ami ubuntu --K /path/to/mykey.pem` |
-| `ec2 list`   | List all EC2 instances created via the CLI.                                 | `awscli ec2 list`                                                                             |
-| `ec2 start`  | Start a stopped EC2 instance.                                              | `awscli ec2 start --N my-ec2`                                                                 |
-| `ec2 stop`   | Stop a running EC2 instance.                                               | `awscli ec2 stop --id i-0123456789abcdef`                                                     |
-| `ec2 delete` | Delete an EC2 instance.                                                    | `awscli ec2 delete --N my-ec2`                                                                |
+| `ec2 list`   | List all EC2 instances created via the CLI.                                 | `awscli ec2 list`                                                                           |
+| `ec2 start`  | Start a stopped EC2 instance.                                              | `awscli ec2 start --N my-ec2`                                                               |
+| `ec2 stop`   | Stop a running EC2 instance.                                               | `awscli ec2 stop --id i-0123456789abcdef`                                                   |
+| `ec2 delete` | Delete an EC2 instance.                                                    | `awscli ec2 delete --N my-ec2`                                                              |
+
 
 ### 📂 S3 Commands
 
