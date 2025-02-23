@@ -1,4 +1,4 @@
-# AWS DevOps Self-Service CLI project 🚀
+# AWS DevOps Self-Service CLI 🚀
 
 ## Overview 📄
 
