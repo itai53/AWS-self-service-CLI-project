@@ -71,7 +71,7 @@ subnet-id:subne-<your_subnet_id>
 
 This configuration file ensures the correct security group and subnet are used when launching EC2 instances.
 
-### SSH Keys (optional) 🔑
+### SSH Keys 🔑
 
 To connect to EC2 instances via SSH, generate an SSH key pair in PEM format:
 
