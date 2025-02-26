@@ -158,6 +158,24 @@ Some commands support both full and short versions of flags. For example:
 | `route53 list-records`  | List DNS records in a specified hosted zone.     | `awscli route53 list-records --ID Z3XXXXXXXXXXXXXX`                                         |
 | `route53 delete-record` | Delete a DNS record from a hosted zone.          | `awscli route53 delete-record --ID Z3XXXXXXXXXXXXXX --N www.example.com`                    |
 
+## Folder structure 📚
+```sh
+.
+├── README.md                   # documentation  
+├── deploy.py                   # deployment script  
+├── ec2                         # EC2 management  
+│   ├── configuration.txt       # config for SG & subnet ID
+│   ├── ec2_instance.py         # EC2 functions 
+│   ├── user_data_amazon-linux.sh  # .sh script  
+│   └── user_data_ubuntu.sh     # .sh script
+├── route53                     # Route53 management  
+│   ├── route53_records.py      # DNS functions 
+│   └── route53_zones.py        # Hosted zones functions 
+├── s3                          # S3 management  
+│   └── s3_bucket.py            # S3 functions  
+└── setup.py                    # Setup script for dependencies
+
+```
 ## Summary 📚
 
 By following the installation and configuration steps above, you can quickly set up and use the tool to self-provision AWS resources.
