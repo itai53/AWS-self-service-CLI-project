@@ -158,7 +158,7 @@ Some commands support both full and short versions of flags. For example:
 | `route53 list-records`  | List DNS records in a specified hosted zone.     | `awscli route53 list-records --ID Z3XXXXXXXXXXXXXX`                                         |
 | `route53 delete-record` | Delete a DNS record from a hosted zone.          | `awscli route53 delete-record --ID Z3XXXXXXXXXXXXXX --N www.example.com`                    |
 
-## Folder structure 📚
+## Folder structure 🗄️
 ```sh
 .
 ├── README.md                   # documentation  
