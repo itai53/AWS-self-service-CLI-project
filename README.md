@@ -1,4 +1,4 @@
-# AWS DevOps Self-Service CLI 🚀
+# AWS DevOps Self-Service CLI
 
 ## Overview 📄
 
